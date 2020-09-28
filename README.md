@@ -1,0 +1,3 @@
+An extract of my most recent work (shared with permission). The bit I'm trying to highlight is around generating the data for creating an "Access to stroke unit" chart (in [stroke_chart_view.py](https://github.com/mickaobrien/code-sample/blob/master/backend/stroke_charts_view.py)). Most of the heavy querying is handled by the [NeurologyStayQuerySet](https://github.com/mickaobrien/code-sample/blob/master/backend/querysets.py#L31) which takes care of annotating the queries with the relevant data around whether they had adequate stroke unit access. I've included some of the models used throughout, hopefully there's enough context that things make sense.
+
+On the frontend I've included an extract of Vue component that's used to render the chart.
